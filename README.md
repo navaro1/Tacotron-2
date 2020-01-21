@@ -116,7 +116,7 @@ Next, you need to install some Linux dependencies to ensure audio libraries work
 
 Finally, you can install the requirements. If you are an Anaconda user: (else replace **pip** with **pip3** and **python** with **python3**)
 
-> pip install -r requirements.txt
+> pip install -r .txt
 
 - **Docker:**
 
