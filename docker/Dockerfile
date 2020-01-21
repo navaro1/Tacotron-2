@@ -7,7 +7,7 @@ RUN apt-get install -y libasound-dev portaudio19-dev libportaudio2 libportaudioc
 RUN wget http://data.keithito.com/data/speech/LJSpeech-1.1.tar.bz2
 RUN tar -jxvf LJSpeech-1.1.tar.bz2
 
-RUN git clone https://github.com/Rayhane-mamah/Tacotron-2.git
+RUN git clone https://github.com/navaro1/Tacotron-2.git
 
 WORKDIR Tacotron-2
 
