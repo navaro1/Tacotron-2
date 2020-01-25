@@ -1,5 +1,5 @@
 FROM continuumio/anaconda3:latest
-FROM tensorflow/tensorflow:1.15.0-py3
+FROM tensorflow/tensorflow:1.15.0-gpu-py3
 
 RUN apt-get update
 RUN apt-get install -y libasound-dev portaudio19-dev libportaudio2 libportaudiocpp0 ffmpeg wget git vim
