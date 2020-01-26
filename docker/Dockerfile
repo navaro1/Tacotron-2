@@ -1,5 +1,5 @@
 FROM continuumio/anaconda3:latest
-FROM tensorflow/tensorflow:1.1.0-gpu-py3
+FROM tensorflow/tensorflow:1.5.0-gpu-py3
 
 RUN apt-get update
 RUN apt-get install -y wget
